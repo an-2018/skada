@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import logoSweage from '../../assets/seweage-projet-logo.png'
 
 import {Button} from './styles';
@@ -15,7 +15,7 @@ const ProjetButton: React.FC<Props> = ({
     hasAlerts,
     alerts,
     selected
-}) =>{
+}) => {
     return (
         <Button
             isHome = {isHome}
