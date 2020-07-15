@@ -11,6 +11,7 @@ export const Button = styled.button<Props>`
     border-radius: 50%;
     width: 48px;
     height: 48px;
+    top: 11px;
 
     margin-bottom: 8px;
 
