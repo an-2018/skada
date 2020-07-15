@@ -7,6 +7,7 @@ import styled from 'styled-components';
 // S - Seetings
 // SB - Search Bar
 // UI - User Info
+// PI - Projet Info
 export const Grid = styled.div`
     display:grid;
 
@@ -14,7 +15,7 @@ export const Grid = styled.div`
     grid-template-rows: 46px auto 52px ;
 
     grid-template-areas: 
-        'PL ML AL AL'
+        'PL PI AL AL'
         'PL ML HS IL'
         'S  UI SB IL'
     ;
