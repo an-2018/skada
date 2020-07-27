@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Hashtag} from 'styled-icons/heroicons-outline';
 
 export const Container = styled.div`
     grid-area: AL;
@@ -12,18 +13,33 @@ export const Container = styled.div`
     z-index: 2;
 `;
 
-export const HashtagIcon = styled.div`
+export const HashtagIcon = styled(Hashtag)`
+    width: 24px;
+    height: 24px;
 
+    color: var(--symbol);
 `;
 
 export const Title = styled.div`
+    margin-left: 9px;
 
+    font-size: 16px;
+    font-weight: bold;
+
+    color: var(--while);
 `;
 
 export const Separator = styled.div`
+    height: 24px;
+    width: 1px;
 
+    background-color: var(--white);
+    opacity: 0.2;
+
+    margin: 0 13px;
 `;
 
 export const Description = styled.div`
-
+    font-size: 15px;
+    color: var(--gray);
 `;
